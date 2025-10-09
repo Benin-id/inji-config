@@ -6,14 +6,14 @@
       "credential_issuer_host": "https://injicertify.benin-pilot.mosip.net",
       "display": [
         {
-          "name": "Mock Identity",
+          "name": "Benin Identity",
           "logo": {
             "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Mock Identity",
-          "description": "Download Mock Identity Credential",
-          "language": "en"
+          "description": "Download Benin Identity Credential",
+          "language": "fr"
         }
       ],
       "protocol": "OpenId4VCI",
