@@ -3,7 +3,7 @@
     {
       "issuer_id": "Mock",
       "credential_issuer": "Mock",
-      "credential_issuer_host": "https://${mosip.injicertify.mock.host}",
+      "credential_issuer_host": "https://injicertify.benin-pilot.mosip.net",
       "display": [
         {
           "name": "Mock Identity",
