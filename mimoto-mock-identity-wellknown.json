@@ -20,7 +20,7 @@
       "credential_definition": {
         "type": [
           "VerifiableCredential",
-          "MockVerifiableCredential"
+          "BeninVerifiableCredential"
         ],
         "credentialSubject": {
           "fullName": {
