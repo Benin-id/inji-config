@@ -13,7 +13,7 @@
           },
           "title": "Mock Identity",
           "description": "Download Benin Identity Credential",
-          "language": "fr"
+          "language": "en"
         }
       ],
       "protocol": "OpenId4VCI",
