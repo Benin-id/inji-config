@@ -5,7 +5,7 @@
   ],
   "credential_endpoint": "https://injicertify.benin-pilot.mosip.net/v1/certify/issuance/credential",
   "credential_configurations_supported": {
-    "BeninVerifiableCredential": {
+    "MockVerifiableCredential": {
       "format": "ldp_vc",
       "scope": "mock_identity_vc_ldp",
       "proof_types_supported": {
