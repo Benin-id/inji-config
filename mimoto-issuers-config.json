@@ -46,7 +46,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.partner.clientid}",
-      "client_alias": "inji-wallet-oidc-client",
+      "client_alias": "mpartner-default-inji-oidc",
       "wellknown_endpoint": "https://injicertify.benin-pilot.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://api.benin-pilot.mosip.net/v1/mimoto/get-token/Benin",
