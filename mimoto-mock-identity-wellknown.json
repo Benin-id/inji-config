@@ -1,9 +1,9 @@
 {
   "credential_issuer": "https://${mosip.injicertify.mock.host}",
   "authorization_servers": [
-    "https://esignet.benin-pilot.mosip.net"
+    "https://esignet.anip.bj"
   ],
-  "credential_endpoint": "https://injicertify.benin-pilot.mosip.net/v1/certify/issuance/credential",
+  "credential_endpoint": "https://injicertify.anip.bj/v1/certify/issuance/credential",
   "credential_configurations_supported": {
     "BeninVerifiableCredential": {
       "format": "ldp_vc",
