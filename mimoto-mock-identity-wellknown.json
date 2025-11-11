@@ -3,7 +3,7 @@
   "authorization_servers": [
     "https://esignet.anip.bj"
   ],
-  "credential_endpoint": "http://inji-certify.inji-certify/v1/certify/issuance/credential",
+  "credential_endpoint": "https://injicertify.anip.bj/v1/certify/issuance/credential",
   "credential_configurations_supported": {
     "BeninVerifiableCredential": {
       "format": "ldp_vc",
