@@ -6,7 +6,7 @@
       "credential_issuer_host": "https://injicertify.benin.mosip.net",
       "display": [
         {
-          "name": "Benin Identity",
+          "name": "ANIP",
           "logo": {
             "url": "https://raw.githubusercontent.com/Benin-id/inji-config/benin-0.5.0-onprem/asset/095230752747001675069962%20(1).png",
             "alt_text": "mosip-logo"
