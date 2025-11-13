@@ -110,12 +110,12 @@
           "name": "Mock Verifiable Credential",
           "locale": "en",
           "logo": {
-            "url": "https://${mosip.api.public.host}/inji/mosip-logo.png",
+            "url": "https://raw.githubusercontent.com/Benin-id/inji-config/benin-0.5.0-onprem/asset/095230752747001675069962%20(1).png",
             "alt_text": "a square logo of a MOSIP"
           },
           "background_color": "#12107c",
           "background_image": {
-            "uri": "https://${mosip.api.public.host}/inji/mosip-logo.png"
+            "uri": "https://raw.githubusercontent.com/Benin-id/inji-config/benin-0.5.0-onprem/asset/095230752747001675069962%20(1).png"
           },
           "text_color": "#FFFFFF"
         }
