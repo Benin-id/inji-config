@@ -6,9 +6,9 @@
       "credential_issuer_host": "https://injicertify.benin.mosip.net",
       "display": [
         {
-          "name": "ANIP",
+          "name": "Benin Identity",
           "logo": {
-            "url": "https://raw.githubusercontent.com/Benin-id/inji-config/benin-0.5.0-onprem/asset/095230752747001675069962%20(1).png",
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
             "alt_text": "mosip-logo"
           },
           "title": "Benin Identity",
@@ -18,10 +18,87 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.partner.clientid}",
-      "client_alias": "mpartner-default-inji-oidc",
+      "client_alias": "mpartner-default-inji-oidc-new",
       "wellknown_endpoint": "https://injicertify.benin.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://api.benin.mosip.net/v1/mimoto/get-token/Benin",
+      "authorization_audience": "https://esignet.benin.mosip.net/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://esignet.benin.mosip.net/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+     {
+      "issuer_id": "Mosip",
+      "credential_issuer": "Mosip",
+      "credential_issuer_host": "https://injicertify.benin.mosip.net",
+      "display": [
+        {
+          "name": "MosiLand National Identity Department",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip-logo"
+          },
+          "title": "MosiLand National Identity Department",
+          "description": "Download MOSIP National / Foundational Identity Credential",
+          "language": "en"
+        },
+        {
+          "name": "دائرة الهوية الوطنية",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "شعار موسيب"
+          },
+          "title": "دائرة الهوية الوطنية",
+          "description": "قم بتنزيل بيانات اعتماد الهوية الوطنية / التأسيسية MOSIP",
+          "language": "ar"
+        },
+        {
+          "name": "राष्ट्रीय पहचान विभाग",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "मोसिप लोगो"
+          },
+          "title": "राष्ट्रीय पहचान विभाग",
+          "description": "MOSIP नेशनल/फाउंडेशनल आइडेंटिटी क्रेडेंशियल डाउनलोड करेंं",
+          "language": "hi"
+        },
+        {
+          "name": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip ಲೋಗೋ"
+          },
+          "title": "ರಾಷ್ಟ್ರೀಯ ಗುರುತಿನ ಇಲಾಖೆ",
+          "description": "MOSIP ರಾಷ್ಟ್ರೀಯ / ಫೌಂಡೇಶನಲ್ ಐಡೆಂಟಿಟಿ ರುಜುವಾತು ಡೌನ್\u200Cಲೋಡ್ ಮಾಡಿ",
+          "language": "kn"
+        },
+        {
+          "name": "தேசிய அடையாளத் துறை",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "mosip லோகோ"
+          },
+          "title": "தேசிய அடையாளத் துறை",
+          "description": "MOSIP தேசிய / அடிப்படை அடையாளச் சான்றிதழைப் பதிவிறக்கவும்",
+          "language": "ta"
+        },
+        {
+          "name": "MosiLand National Identity Department",
+          "logo": {
+            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
+            "alt_text": "logo ng mosip"
+          },
+          "title": "MosiLand National Identity Department",
+          "description": "I-download ang MOSIP National / Foundational Identity Credential",
+          "language": "fil"
+        }
+      ],
+       "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.partner.clientid}",
+      "client_alias": "mpartner-default-inji-oidc-new",
+      "wellknown_endpoint": "https://injicertify.benin.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://api.benin.mosip.net/v1/mimoto/get-token/Mosip",
       "authorization_audience": "https://esignet.benin.mosip.net/v1/esignet/oauth/v2/token",
       "proxy_token_endpoint": "https://esignet.benin.mosip.net/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
