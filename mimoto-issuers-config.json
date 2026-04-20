@@ -86,6 +86,60 @@
       "proxy_token_endpoint": "https://esignet.benin.mosip.net/v1/esignet/oauth/v2/token",
       "qr_code_type": "OnlineSharing",
       "enabled": "true"
+    },
+    {
+      "issuer_id": "PERMIS_DE_CONDUIRE",
+      "credential_issuer": "MOSIP",
+      "credential_issuer_host": "https://injicertify.benin.mosip.net",
+      "display": [
+        {
+          "name": "Permis de conduire",
+          "logo": {
+            "url": "https://raw.githubusercontent.com/Benin-id/inji-config/benin-0.5.0-onprem/asset/Logo DEI.png",
+            "alt_text": "Permis de conduire"
+          },
+          "title": "Permis de conduire",
+          "description": "Permis de conduire",
+          "language": "fr"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.partner.clientid}",
+      "client_alias": "mpartner-default-inji-oidc-new",
+      "wellknown_endpoint": "https://injicertify.benin.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://api.benin.mosip.net/v1/mimoto/get-token/Mosip",
+      "authorization_audience": "https://esignet.benin.mosip.net/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://esignet.benin.mosip.net/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
+    },
+    {
+      "issuer_id": "PASSEPORT",
+      "credential_issuer": "MOSIP",
+      "credential_issuer_host": "https://injicertify.benin.mosip.net",
+      "display": [
+        {
+          "name": "Passeport",
+          "logo": {
+            "url": "https://raw.githubusercontent.com/Benin-id/inji-config/benin-0.5.0-onprem/asset/Logo ANaTT.png",
+            "alt_text": "Passeport"
+          },
+          "title": "Passeport",
+          "description": "Passeport",
+          "language": "fr"
+        }
+      ],
+      "protocol": "OpenId4VCI",
+      "client_id": "${mimoto.oidc.partner.clientid}",
+      "client_alias": "mpartner-default-inji-oidc-new",
+      "wellknown_endpoint": "https://injicertify.benin.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
+      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
+      "token_endpoint": "https://api.benin.mosip.net/v1/mimoto/get-token/Mosip",
+      "authorization_audience": "https://esignet.benin.mosip.net/v1/esignet/oauth/v2/token",
+      "proxy_token_endpoint": "https://esignet.benin.mosip.net/v1/esignet/oauth/v2/token",
+      "qr_code_type": "OnlineSharing",
+      "enabled": "true"
     }
   ]
 }
