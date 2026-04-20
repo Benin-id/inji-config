@@ -88,7 +88,7 @@
       "enabled": "true"
     },
     {
-     "issuer_id": "Mosip",
+     "issuer_id": "mock",
       "credential_issuer": "Mosip",
       "credential_issuer_host": "https://injicertify.benin.mosip.net",
       "display": [
@@ -115,7 +115,7 @@
       "enabled": "true"
     },
     {
-      "issuer_id": "Mosip",
+      "issuer_id": "postgres",
       "credential_issuer": "Mosip",
       "credential_issuer_host": "https://injicertify.benin.mosip.net",
       "display": [
