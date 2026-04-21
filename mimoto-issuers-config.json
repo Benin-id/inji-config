@@ -95,7 +95,7 @@
         {
           "name": "Permis de conduire",
           "logo": {
-            "url": "https://raw.githubusercontent.com/Benin-id/inji-config/benin-0.5.0-onprem/asset/Logo DEI.png",
+            "url": "https://raw.githubusercontent.com/Benin-id/inji-config/benin-0.5.0-onprem/asset/Logo ANaTT.png"",
             "alt_text": "Permis de conduire"
           },
           "title": "Permis de conduire",
@@ -122,7 +122,7 @@
         {
           "name": "Passeport",
           "logo": {
-            "url": "https://raw.githubusercontent.com/Benin-id/inji-config/benin-0.5.0-onprem/asset/Logo ANaTT.png",
+            "url": "https://raw.githubusercontent.com/Benin-id/inji-config/benin-0.5.0-onprem/asset/Logo DEI.png",
             "alt_text": "Passeport"
           },
           "title": "Passeport",
