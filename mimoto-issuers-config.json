@@ -1,33 +1,6 @@
 {
   "issuers": [
      {
-      "issuer_id": "Benin",
-      "credential_issuer": "Benin",
-      "credential_issuer_host": "https://injicertify.benin-pilot.mosip.net",
-      "display": [
-        {
-          "name": "Benin Identity",
-          "logo": {
-            "url": "https://mosip.github.io/inji-config/logos/mosipid-logo.png",
-            "alt_text": "mosip-logo"
-          },
-          "title": "Benin Identity",
-          "description": "Download Benin Identity Credential",
-          "language": "fr"
-        }
-      ],
-      "protocol": "OpenId4VCI",
-      "client_id": "${mimoto.oidc.partner.clientid}",
-      "client_alias": "mpartner-default-inji-oidc-new",
-      "wellknown_endpoint": "https://injicertify.benin-pilot.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
-      "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
-      "token_endpoint": "https://api.benin-pilot.mosip.net/v1/mimoto/get-token/Benin",
-      "authorization_audience": "https://esignet.benin-pilot.mosip.net/v1/esignet/oauth/v2/token",
-      "proxy_token_endpoint": "https://esignet.benin-pilot.mosip.net/v1/esignet/oauth/v2/token",
-      "qr_code_type": "OnlineSharing",
-      "enabled": "true"
-    },
-     {
       "issuer_id": "Mosip",
       "credential_issuer": "Mosip",
       "credential_issuer_host": "https://injicertify.benin-pilot.mosip.net",
