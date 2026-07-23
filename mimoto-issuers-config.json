@@ -105,7 +105,7 @@
       ],
       "protocol": "OpenId4VCI",
       "client_id": "${mimoto.oidc.partner.clientid}",
-      "client_alias": "mpartner-default-inji-oidc-new",
+      "client_alias": "mpartner-certify-oidc",
       "wellknown_endpoint": "https://injicertify-landregistry.benin.mosip.net/v1/certify/issuance/.well-known/openid-credential-issuer",
       "redirect_uri": "io.mosip.residentapp.inji://oauthredirect",
       "token_endpoint": "https://api.benin.mosip.net/v1/mimoto/get-token/land",
